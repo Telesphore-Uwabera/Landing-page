@@ -1,0 +1,135 @@
+ /* Header and Footer */
+    header,
+    footer {
+        background-color: #1F2937;
+    }
+
+    /* Header Main Text */
+    header h1 {
+        font-size: 48px;
+        font-weight: 900;
+        color: #F9FAF8;
+    }
+
+    /* Header Other Text and Links */
+    header a,
+    header p {
+        font-size: 18px;
+        color: #E5E7EB;
+    }
+
+    /* Header Logo Text */
+    header .logo a {
+        font-size: 24px;
+        color: #F9FAF8;
+    }
+
+    /* Button and Call to Action Background Color */
+    button {
+        background-color: #3882F6;
+    }
+
+    /* Information Header Text */
+    main section:first-of-type>div>h2 {
+        font-size: 36px;
+        font-weight: 900;
+        color: #1F2937;
+    }
+
+    /* Quotes Section Background Color */
+    .quotes {
+        background-color: #E5E7EB;
+    }
+
+    /* Quote Text */
+    .quotes q {
+        font-size: 36px;
+        font-weight: lighter;
+        font-style: italic;
+        color: #1F2937;
+    }
+
+    .links {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        margin-top: 20px;
+        margin-right: 20px;
+        word-spacing: 15px;
+        gap: 15px;
+    }
+
+    .sure {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .care {
+        display: flex;
+        align-items: center;
+        margin-left: 140px;
+    }
+
+    .picture {
+        flex-basis: 50%;
+        /* Take up 50% of the width */
+        margin-left: auto;
+        margin-right: 20px;
+        /* Adjust the margin as desired */
+    }
+
+    .content {
+        flex-basis: 50%;
+        /* Take up 50% of the width */
+    }
+
+    .Free {
+        display: flex;
+    }
+
+    .Free .left-content {
+        flex: 1;
+        padding-right: 10px;
+        /* Adjust the padding as desired */
+    }
+
+    .Free .right-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        padding-left: 10px;
+        /* Adjust the padding as desired */
+    }
+
+    .button {
+        display: block;
+
+    }
+
+    .information-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .information-heading {
+        text-align: center;
+    }
+
+    .image-block {
+        text-align: center;
+    }
+
+    .image {
+        width: 200px;
+        border-radius: 50%;
+        margin: 10px;
+    }
+
+    .name {
+        font-weight: bold;
+    }
+
+    .position {
+        font-style: italic;
+    }
