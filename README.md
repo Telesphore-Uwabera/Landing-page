@@ -21,10 +21,13 @@ git clone https://github.com/Telesphore-Uwabera/Landing-page.git
 
 The project directory structure is as follows:
 
-index.html: The main HTML file for the landing page.
-style.css: The CSS file containing the project's styles.
-images/: Directory containing images used in the project.
-README.md: This documentation file.
+- index.html: The main HTML file for the landing page.
+
+- style.css: The CSS file containing the project's styles.
+
+- images/: Directory containing images used in the project.
+
+- README.md: This documentation file.
 
 ## Usage
 
